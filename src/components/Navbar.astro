@@ -1,5 +1,5 @@
 <header>
-    <div class="logo">
+    <div class="text-xl font-bold text-white">
         <a href="/">Mi portafolio</a>
     </div>
     <input type="checkbox" id="click">
@@ -8,17 +8,17 @@
             <i class="bi bi-list"></i>
         </div>
     </label>
-    <nav>
-        <a href="/" class="active">Home</a>
-        <a href="/#about">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+    <nav class="bg-gray-900">
+        <a href="/" class="active">Inicio</a>
+        <a href="/#about">Sobre Mi</a>
+        <a href="#">Servicios</a>
+        <a href="#">Portafolio</a>
+        <a href="#">Contacto</a>
     </nav>
 </header>
 <style>
 header {
-    padding: 1.7rem 1rem;
+    padding: 30px 16px;
     background-color: #fff;
     display: flex;
     justify-content: space-between;
@@ -28,30 +28,20 @@ header {
     background-color: transparent;
 }
 
-.logo {
-    font-size: 1.3rem;
-    font-weight: 800;
-}
-
-.logo a {
-    color: #fff;
-    text-decoration: none;
-}
-
 nav a {
     color: #fff;
     text-decoration: none;
-    font-size: .97rem;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: .7px;
-    padding: 1rem;
-    padding: 0.4rem 1rem;
+    padding: 16px;
+    padding:8px 16px;
 }
 
 nav a.active,
 nav a:hover {
     color: #00E8F8;
-    border-radius: 1rem;
+    border-radius: 16px;
     transition: all.3s ease-in-out;
 }
 
@@ -67,16 +57,16 @@ nav a:hover {
     display: none;
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:1024px) {
     .menu {
         display: block;
-        font-size: 1.5rem;
+        font-size: 24px;
         font-weight: bold;
         color: #244D61;
     }
 
     header {
-        padding: 0.7rem 1rem;
+        padding: 12px 16px;
         align-items: center;
         max-width: 100%;
     }
@@ -86,7 +76,6 @@ nav a:hover {
         display: grid;
         top: 55px;
         text-align: center;
-        background-color: #1F252E;
         left: -100%;
         z-index: 1;
         width: 100%;
