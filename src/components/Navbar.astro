@@ -1,6 +1,6 @@
 <header>
     <div class="logo">
-        <a href="#">Mi portafolio</a>
+        <a href="/">Mi portafolio</a>
     </div>
     <input type="checkbox" id="click">
     <label for="click" class="mainicon">
@@ -10,91 +10,91 @@
     </label>
     <nav>
         <a href="/" class="active">Home</a>
-        <a href="/">About</a>
+        <a href="/#about">About</a>
         <a href="#">Skills</a>
         <a href="#">Portfolio</a>
         <a href="#">Contact</a>
     </nav>
 </header>
 <style>
-    header {
-        padding: 1.7rem 1rem;
-        background-color: #fff;
-        display: flex;
-        justify-content: space-between;
-        max-width: 80%;
-        margin: auto;
-        align-items: center;
-        background-color: transparent;
-    }
+header {
+    padding: 1.7rem 1rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    align-items: center;
+    background-color: transparent;
+}
 
-    .logo {
-        font-size: 1.3rem;
-        font-weight: 800;
-    }
+.logo {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
 
-    .logo a {
-        color: #fff;
-        text-decoration: none;
-    }
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
 
-    nav a {
-        color: #fff;
-        text-decoration: none;
-        font-size: .97rem;
-        font-weight: 600;
-        letter-spacing: .7px;
-        padding: 1rem;
-        padding: 0.4rem 1rem;
-    }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: .97rem;
+    font-weight: 600;
+    letter-spacing: .7px;
+    padding: 1rem;
+    padding: 0.4rem 1rem;
+}
 
-    nav a.active,
-    nav a:hover {
-        color: #00E8F8;
-        border-radius: 1rem;
-        transition: all.3s ease-in-out;
-    }
+nav a.active,
+nav a:hover {
+    color: #00E8F8;
+    border-radius: 1rem;
+    transition: all.3s ease-in-out;
+}
 
-    #click {
-        display: none;
-    }
+#click {
+    display: none;
+}
 
-    .menu i {
-        color: #00E8F8;
-    }
+.menu i {
+    color: #00E8F8;
+}
 
+.menu {
+    display: none;
+}
+
+@media only screen and (max-width:767px) {
     .menu {
-        display: none;
+        display: block;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #244D61;
     }
 
-    @media only screen and (max-width:480px) {
-        .menu {
-            display: block;
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #244D61;
-        }
-
-        header {
-            padding: 0.7rem 1rem;
-            align-items: center;
-            max-width: 100%;
-        }
-
-        nav {
-            position: absolute;
-            display: grid;
-            top: 55px;
-            text-align: center;
-            background-color: #1F252E;
-            left: -100%;
-            z-index: 1;
-            width: 100%;
-        }
-
-        #click:checked~nav {
-            left: 0%;
-            transition: all 0.3s ease;
-        }
+    header {
+        padding: 0.7rem 1rem;
+        align-items: center;
+        max-width: 100%;
     }
+
+    nav {
+        position: absolute;
+        display: grid;
+        top: 55px;
+        text-align: center;
+        background-color: #1F252E;
+        left: -100%;
+        z-index: 1;
+        width: 100%;
+    }
+
+    #click:checked~nav {
+        left: 0%;
+        transition: all 0.3s ease;
+    }
+}
 </style>

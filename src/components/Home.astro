@@ -1,96 +1,60 @@
 ---
 
 ---
-<section class="home-container">
-    <div class="main">
-        <div class="detail"><!---Sarah -->
-            <h1> Soy <span style="color:#00E8F8;">Eduardo Tolaba</span></h1>
-            <span class="develop-title">Full Stack Web Developer</span>
-            <div class="social">
-                <a href="#"><i class="bi bi-github"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
+<section class="p-2 md:p-8">
+    <div class="flex flex-wrap justify-between m-2 md:my-10 mx-6 gap-y-8">
+        <div class="detail flex flex-col gap-y-4 md:gap-y-6 md:py-12"><!---Sarah -->
+            <h1 class="text-3xl md:text-5xl font-semibold text-white">Soy <span style="color:#00E8F8;">Eduardo Tolaba</span></h1>
+            <div class="develop-title text-1xl md:text-3xl font-semibold relative uppercase">
+                <span class="text__develop">Desarrollador web full stack</span>
+                <span class="text__develop-hover">Desarrollador web full stack</span>
+            </div>
+            <div class="flex flex-wrap pt-4 pb-4 gap-5 social">
+                <a href="https://github.com/TolabaE" target="_blank" class="text-xl w-8 h-8 md:w-14 md:h-14 md:text-3xl flex justify-center items-center rounded-full bg-cyan-400 text-slate-900"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/tolaba-eduardo-esequiel/" target="_blank" class="text-xl w-8 h-8 md:w-14 md:h-14 md:text-3xl flex justify-center items-center rounded-full bg-cyan-400 text-slate-900"><i class="bi bi-linkedin"></i></a>
+                <a href="#" target="_blank" class="text-xl w-8 h-8 md:w-14 md:h-14 md:text-3xl flex justify-center items-center rounded-full bg-cyan-400 text-slate-900"><i class="bi bi-envelope-fill"></i></a>
+                <a href="https://www.instagram.com/eduardo_tolaba25/" target="_blank" class="text-xl w-8 h-8 md:w-14 md:h-14 md:text-3xl flex justify-center items-center rounded-full bg-cyan-400 text-slate-900"><i class="bi bi-instagram"></i></a>
             </div>
         </div>
-        <div class="images">
-            <img src="../../images/imageportfolio.jpg" alt="" width="70%">
+        <div class="images py-3 ">
+            <img src="/images/imageportfolio.jpg" alt="imagen de perfil del desarrollador" width="70%" class="m-auto rounded-3xl">
         </div>
     </div>
 </section>
 <style>
-    .home-container{
-        margin: 2rem 8.5rem;
-    }
-
-    .main {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        margin: 5rem auto;
-    }
-
-    .main h1 {
-        font-size: 2.5rem;
-        font-weight: 600;
-        color: #fff;
-        animation: check 1s ease forwards;
-        animation-delay: .1s;
-    }
-
-    .main p {
-        margin-top: 1rem;
-        font-size: .98rem;
-        color: #fff;
-    }
-
-    .social {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.4rem;
-        margin-top: 1.7rem;
-    }
-
-    .social a {
-        color: #00E8F8;
-        font-size: 1.2rem;
-        border: 1.6px solid #00E8F8;
-        border-radius: 50%;
-        padding: .35rem;
-        text-align: center;
-        width: 30px;
-    }
-
     .social a:hover {
         color: #1F252E;
         background-color: #00E8F8;
         box-shadow: 0 0 20px #00E8F8;
         transition: all .3s ease-in-out;
     }
-/* 
-    .main h1 span:nth-child(1) {
-        font-size: 1.5rem;
-    } */
-
-    .main h1 span:nth-child(2) {
-        color: #00E8F8;
-    }
-
     .images {
-        background-image: url(/img/graph5.png);
+        /* background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80");
         background-repeat: no-repeat;
-        background-position: 0 -75px;
-        -webkit-box-shadow: 0 10px 10px -10px #000000;
-        -moz-box-shadow: 0 10px 10px -10px #000000;
-        box-shadow: 0px 16px 4px -10px #00E8F8;
+        background-position: 0 -75px; */
+        /* -webkit-box-shadow: 0 10px 10px -10px #000000; */
+        /* -moz-box-shadow: 0 10px 10px -10px #000000; */
+        box-shadow: 0px 16px 4px -10px rgb(0, 232, 248);
         width: 528px;
         background-size: cover;
     }
-    .develop-title{
-        font-size: 1.5rem;
-        font-weight: 600;
+
+    .text__develop{
+        color: transparent;
+        -webkit-text-stroke:1px rgba(255,255,255, 0.6);
+    }
+    .text__develop-hover{
+        position: absolute;
+        inset: 0;
+        width: 0%;
         color: #00E8F8;
+        overflow: hidden;
+        transition: 0.5s ease-in-out;
+        border-right: 3px solid #00E8F8;
+    }
+    .develop-title:hover .text__develop-hover{
+        width: 101%;
+        filter: drop-shadow(0 0 30px #1af7ff);
     }
     @keyframes check {
         0% {
