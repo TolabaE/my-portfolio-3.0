@@ -1,0 +1,64 @@
+---
+import CardStudy from '../components/CardStudy.astro';
+
+
+const estudios = [
+    {
+        id:1,
+        facultad:"Universidad de Buenos Aires",
+        carrera:"Carrera Analista en Sistemas",
+        inicio:"Marzo 2023 - Cursando"
+    },
+    {
+        id:2,
+        facultad:"Instituto superior en Lenguas Vivas",
+        carrera:"Idioma Ingles",
+        inicio:"Marzo 2020 - Presente"
+    },
+    {
+        id:3,
+        facultad:"Colegio Secundario N° 5087 Cachi-Salta",
+        carrera:"Titulo Bachiller",
+        inicio:"Marzo 2014 - Finalizado: Diciembre 2018"
+    }
+]
+
+const cursos = [
+    {
+        id:1,
+        facultad:"Educación IT",
+        carrera:"Desarrollador Angular Js",
+        inicio:"Junio 2023 - Julio 2023"
+    },
+    {
+        id:3,
+        facultad:"CoderHouse",
+        carrera:"Carrera de Desarrollo Web Full Stack",
+        inicio:"Marzo 2022 - Febrero 2023"
+    }
+]
+
+---
+
+<div class="text-white font-semibold text-sm md:text-xl my-10 md:my-6">
+    <h2 class="text-center font-semibold text-2xl md:text-4xl text-white">Mis <span class=" text-cyan-400">Estudios</span></h2>
+    {
+        estudios.map(item =>(
+            <CardStudy
+                instituto={item.facultad}
+                titulo={item.carrera}
+                fecha={item.inicio}
+            />
+        ))
+    }
+    <h2 class="text-center font-semibold text-2xl md:text-4xl text-white">Mis <span class=" text-cyan-400">Cursos</span></h2>
+    {
+        cursos.map(item =>(
+            <CardStudy
+                instituto={item.facultad}
+                titulo={item.carrera}
+                fecha={item.inicio}
+            />
+        ))
+    }
+</div>
