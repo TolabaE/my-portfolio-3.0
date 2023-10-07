@@ -12,26 +12,6 @@ const {imagen,descripcion,nombre} = Astro.props;
 
 
 <div class="dimension flex flex-col justify-center items-center m-3 p-4 bg-slate-900 border border-cyan-500  text-cyan-400 lg:border-2 lg:border-trasparent lg:hover:scale-105 lg:border-slate-900 lg:hover:border-cyan-500 lg:hover:text-cyan-400 lg:text-white">
-    <img src={imagen} alt={descripcion} class="card-service object-contain bg-slate-900">
+    <img src={imagen} alt={descripcion} class="card-service w-20 h-16 md:w-24 md:h-20 lg:w-28 lg:h-24 object-contain bg-slate-900">
     <figcaption class="font-semibold text-sm md:font-bold md:text-lg">{nombre}</figcaption>
 </div>
-
-
-<style>
-.card-service{
-    width: 115px;
-    height: 110px;
-}
-/* .dimension:hover{
-    border:2 px solid 
-} */
-@media screen and (max-width:767px) {
-    .card-service{
-        width: 90px;
-        height: 85px;
-    }
-}
-    /* .dimension:hover{
-        box-shadow: 0 0 2px 5px #8ddce8;
-    } */
-</style>

@@ -1,0 +1,65 @@
+---
+import CardProject from "../components/CardProject.astro";
+
+const portfolioArray = [
+    {
+        nombre:"Proyecto de Desarrollo Web",
+        detalle:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore tempora quibusdam aperiam! Possimus ad consequatur quaerat nihil quam aliquam reprehenderit laudantium eum distinctio, voluptates totam maxime vitae, alias ab.",
+        repositorio:"hthhth",
+        demo:"dkaka",
+        tecnologias:[
+            {
+                src:"https://user-images.githubusercontent.com/8939680/57233882-20344080-6fe5-11e9-9086-d20a955bed59.png",
+                alt:"logo de axios"
+            }
+        ],
+        portada:"/images/proyectoweb.webp"
+    },
+    {
+        nombre:"Proyecto Javascript",
+        detalle:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore tempora quibusdam aperiam! Possimus ad consequatur quaerat nihil quam aliquam reprehenderit laudantium eum distinctio, voluptates totam maxime vitae, alias ab.",
+        repositorio:"hthhth",
+        demo:"dkaka",
+        tecnologias:[
+            {
+                src:"https://user-images.githubusercontent.com/8939680/57233882-20344080-6fe5-11e9-9086-d20a955bed59.png",
+                alt:"logo de axios"
+            },
+            {
+                src:"https://user-images.githubusercontent.com/8939680/57233882-20344080-6fe5-11e9-9086-d20a955bed59.png",
+                alt:"logo de axios"
+            }
+        ],
+        portada:"/images/proyectoJavascript.webp"
+    },
+    {
+        nombre:"Proyecto Web",
+        detalle:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore tempora quibusdam aperiam! Possimus ad consequatur quaerat nihil quam aliquam reprehenderit laudantium eum distinctio, voluptates totam maxime vitae, alias ab.",
+        repositorio:"hthhth",
+        demo:"",
+        tecnologias:[
+            {
+                src:"ansiaijsia",
+                alt:"jnasjnjanas"
+            }
+        ],
+        portada:"/images/proyectochats.webp"
+    }
+]
+
+---
+
+<div class="flex justify-between py-4">
+    {
+        portfolioArray.map(item =>(
+            <CardProject
+                imagen={item.portada}
+                title={item.nombre}
+                description={item.detalle}
+                github={item.repositorio}
+                deploy={item.demo}
+                tecnology={item.tecnologias}
+            />
+        ))
+    }
+</div>

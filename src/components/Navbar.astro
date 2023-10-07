@@ -1,3 +1,7 @@
+---
+
+---
+
 <header>
     <div class="text-xl font-bold text-white">
         <a href="/">Mi portafolio</a>
@@ -9,13 +13,14 @@
         </div>
     </label>
     <nav class="bg-gray-900">
-        <a href="/" class="active">Inicio</a>
-        <a href="/#about">Sobre Mi</a>
-        <a href="/#services">Servicios</a>
-        <a href="#">Portafolio</a>
-        <a href="#">Contacto</a>
+        <a href="#home">Inicio</a>
+        <a href="#about">Sobre Mi</a>
+        <a href="#services">Servicios</a>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#contact">Contacto</a>
     </nav>
 </header>
+
 <style>
 header {
     padding: 30px 16px;
@@ -38,13 +43,16 @@ nav a {
     padding:8px 16px;
 }
 
-nav a.active,
+/* nav a.active,
 nav a:hover {
     color: #00E8F8;
     border-radius: 16px;
     transition: all.3s ease-in-out;
+} */
+#clickNav{
+    scroll-behavior: smooth;
+    transition: all 2s;
 }
-
 #click {
     display: none;
 }
