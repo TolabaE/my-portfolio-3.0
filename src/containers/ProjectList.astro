@@ -4,7 +4,7 @@ import CardProject from "../components/CardProject.astro";
 const portfolioArray = [
     {
         nombre:"Proyecto de Desarrollo Web",
-        detalle:"Proyecto realizado para mi curso de desarrollo web, es una sitio web de turismo donde tiene una guia turistica, de lugares que se visitan en un pueblo",
+        detalle:"Sitio web realizado para mi curso de desarrollo web, basado en una guia turistica de un departamento ubicado en Salta, encontraras informacion principalmente sobre su economia, lugares turisticos, productos regionales y gastronima.",
         repositorio:"https://github.com/TolabaE/proyectoWeb",
         demo:"https://pimentonrojo.netlify.app/",
         tecnologias:[
@@ -29,9 +29,9 @@ const portfolioArray = [
     },
     {
         nombre:"Proyecto Javascript",
-        detalle:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore tempora quibusdam aperiam! Possimus ad consequatur quaerat nihil quam aliquam reprehenderit laudantium eum distinctio, voluptates totam maxime vitae, alias ab.",
-        repositorio:"hthhth",
-        demo:"dkaka",
+        detalle:"Realizado para mi curso de javascript, es un ecommerce que simula ser una ferreteria, usando javascript vanilla y con almacenamiento de carrito en el localstorage.",
+        repositorio:"https://github.com/TolabaE/proyectoJavaScript",
+        demo:"https://ecommerceferreteria.netlify.app/",
         tecnologias:[
             {
                 src:"https://blog.hubspot.es/hubfs/media/imagenhtmlejemplo.png",
@@ -52,13 +52,17 @@ const portfolioArray = [
             {
                 src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMd7eiGMX9FwRLC0uJTDewSjw_7_WvCF4ABLdwztLrCnPEXrqW0gG-pH8eT-fYPLlghjY&usqp=CAU",
                 alt: "logo del sass"
-            }
+            },
+            {
+                src:"https://sgo.pm.ce.gov.br/_lib/libraries/grp/sweetalert/sweetalert2-9.7.2/assets/swal2-logo-square.png",
+                alt:"sweetalert"
+            },
         ],
         portada:"/images/imagendefondo.webp"
     },
     {
-        nombre:"Proyecto Chats en Node.js",
-        detalle:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore tempora quibusdam aperiam! Possimus ad consequatur quaerat nihil quam aliquam reprehenderit laudantium eum distinctio, voluptates totam maxime vitae, alias ab.",
+        nombre:"Chats en Node.js",
+        detalle:"",
         repositorio:"hthhth",
         demo:"",
         tecnologias:[
@@ -95,7 +99,7 @@ const portfolioArray = [
     },
     {
         nombre:"Proyecto en React.Js",
-        detalle:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore tempora quibusdam aperiam! Possimus ad consequatur quaerat nihil quam aliquam reprehenderit laudantium eum distinctio, voluptates totam maxime vitae, alias ab.",
+        detalle:"",
         repositorio:"hthhth",
         demo:"",
         tecnologias:[
@@ -132,7 +136,7 @@ const portfolioArray = [
     },
     {
         nombre:"Proyecto Backend en express",
-        detalle:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore tempora quibusdam aperiam! Possimus ad consequatur quaerat nihil quam aliquam reprehenderit laudantium eum distinctio, voluptates totam maxime vitae, alias ab.",
+        detalle:"",
         repositorio:"hthhth",
         demo:"",
         tecnologias:[
@@ -158,12 +162,33 @@ const portfolioArray = [
             }
         ],
         portada:"/images/proyectobackend.png"
+    },
+    {
+        nombre:"Proyecto Frontend",
+        detalle:"",
+        repositorio:"hthhth",
+        demo:"",
+        tecnologias:[
+            {
+                src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
+                alt:"logo del frameworks react.js"
+            },
+            {
+                src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+                alt:"imagen del logo de css3"
+            },
+            {
+                src:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+                alt:"logo de javascript"
+            },
+        ],
+        portada:"/images/ventalibrosmedicina.webp"
     }
 ]
 
 ---
-
-<div class="flex flex-col gap-6 items-center md:flex-row md:justify-between flex-wrap py-4">
+<h2 class=" mt-4 text-center text-2xl md:text-3xl font-semibold text-white"><span class="text-cyan-400">Proyectos </span>Personales</h2>
+<div class="flex flex-col gap-6 items-center md:flex-row  md:justify-between flex-wrap py-4">
     {
         portfolioArray.map(item =>(
             <CardProject
@@ -177,3 +202,4 @@ const portfolioArray = [
         ))
     }
 </div>
+<h2 class=" mt-4 text-center text-2xl md:text-3xl font-semibold text-white"><span class="text-cyan-400">Proyectos </span>Empresariales</h2>
