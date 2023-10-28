@@ -4,7 +4,7 @@ import CardProject from "../components/CardProject.astro";
 const portfolioArray = [
     {
         nombre:"Proyecto de Desarrollo Web",
-        detalle:"Sitio web realizado para mi curso de desarrollo web, basado en una guia turistica de un departamento ubicado en Salta, encontraras informacion principalmente sobre su economia, lugares turisticos, productos regionales y gastronima.",
+        detalle:"Sitio web realizado para mi curso de desarrollo web, basado en una guia turistica de un departamento ubicado en Salta, encontraras información principalmente sobre su economia, lugares turisticos, productos regionales y gastronomia.",
         repositorio:"https://github.com/TolabaE/proyectoWeb",
         demo:"https://pimentonrojo.netlify.app/",
         tecnologias:[
@@ -62,9 +62,9 @@ const portfolioArray = [
     },
     {
         nombre:"Chats en Node.js",
-        detalle:"",
-        repositorio:"hthhth",
-        demo:"",
+        detalle:"Trabajando con servidor en express.js y usando socket.io, desarrolle un chats de comunicación grupal, donde los mensajes son cargados en tiempo real, esto permite una comunicación fluida, sin tener que refrescar la pagina.",
+        repositorio:"https://github.com/TolabaE/projectChatJs",
+        demo:"https://project-chats-js.onrender.com/",
         tecnologias:[
             {
                 src:"https://progsoft.net/images/ejs-icon-bccf3f017751a71ee75c69021ee1020fc0d9067e.jpg",
@@ -99,9 +99,9 @@ const portfolioArray = [
     },
     {
         nombre:"Proyecto en React.Js",
-        detalle:"",
-        repositorio:"hthhth",
-        demo:"",
+        detalle:"Usando firebase como base de datos, cree una tienda donde se puede comprar telefonos usados y nuevos de la marca samsung apple entre otras.",
+        repositorio:"https://github.com/TolabaE/ecommerReactJs",
+        demo:"https://ecommer-phone-store.netlify.app/",
         tecnologias:[
             {
                 src:"https://blog.hubspot.es/hubfs/media/imagenhtmlejemplo.png",
@@ -136,8 +136,8 @@ const portfolioArray = [
     },
     {
         nombre:"Proyecto Backend en express",
-        detalle:"",
-        repositorio:"hthhth",
+        detalle:"Proyecto en progreso.. usando las mejores practicas, desarrolle un ecommerce con un servidor y conectado a una base de datos en mongoDB, para guardar los registro de usuarios y los productos.",
+        repositorio:"https://github.com/TolabaE/gamer-store-ecommerce",
         demo:"",
         tecnologias:[
             {
@@ -162,33 +162,33 @@ const portfolioArray = [
             }
         ],
         portada:"/images/proyectobackend.png"
-    },
-    {
-        nombre:"Proyecto Frontend",
-        detalle:"",
-        repositorio:"hthhth",
-        demo:"",
-        tecnologias:[
-            {
-                src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
-                alt:"logo del frameworks react.js"
-            },
-            {
-                src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
-                alt:"imagen del logo de css3"
-            },
-            {
-                src:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-                alt:"logo de javascript"
-            },
-        ],
-        portada:"/images/ventalibrosmedicina.webp"
     }
+    // {
+    //     nombre:"Proyecto Frontend",
+    //     detalle:"",
+    //     repositorio:"hthhth",
+    //     demo:"",
+    //     tecnologias:[
+    //         {
+    //             src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
+    //             alt:"logo del frameworks react.js"
+    //         },
+    //         {
+    //             src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+    //             alt:"imagen del logo de css3"
+    //         },
+    //         {
+    //             src:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+    //             alt:"logo de javascript"
+    //         },
+    //     ],
+    //     portada:"/images/ventalibrosmedicina.webp"
+    // }
 ]
 
 ---
 <h2 class=" mt-4 text-center text-2xl md:text-3xl font-semibold text-white"><span class="text-cyan-400">Proyectos </span>Personales</h2>
-<div class="flex flex-col gap-6 items-center md:flex-row  md:justify-between flex-wrap py-4">
+<div class="flex flex-col gap-6 items-center md:flex-row  flex-wrap md:justify-start py-4">
     {
         portfolioArray.map(item =>(
             <CardProject

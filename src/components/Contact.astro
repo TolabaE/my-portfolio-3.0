@@ -3,12 +3,14 @@
 
 ---
 
-<section class="flex flex-col items-center justify-center m-6 gap-4" id="contact">
+<section class="flex flex-col items-center justify-center m-4 md:my-10 gap-y-8" id="contact">
     <h2 class="text-cyan-400 text-center text-2xl md:text-4xl font-semibold">¡Contacto!</h2>
-    <form action="" class="flex flex-col bg-cyan-400 gap-3 p-8 rounded-md">
-        <input type="text" name="first_name" placeholder="Nombre" class="p-2">
-        <input type="email" name="email" placeholder="Email" class="p-2">
-        <textarea name="description" cols="30" rows="10"></textarea>
-        <input type="button" value="enviar" class=" bg-gray-900 p-1 text-cyan-400 text-xl rounded-lg font-bold">
+    <form action="#" class="flex flex-col gap-4 rounded-md w-full md:w-3/4 lg:w-1/2">
+        <div class="flex flex-col gap-4 md:flex-row w-full">
+            <input type="text" name="first_name" placeholder="Nombre y apellido" class="p-2 border-2 border-cyan-400 bg-transparent rounded-lg md:w-1/2">
+            <input type="email" name="email" placeholder="Correo" class="p-2 border-2 border-cyan-400 bg-transparent rounded-lg md:w-1/2">
+        </div>
+        <textarea name="description" cols="30" rows="10" class="border-2 border-cyan-400 bg-transparent rounded-lg p-2" placeholder="Descripción de la consulta..."></textarea>
+        <input type="button" value="Enviar" class=" bg-cyan-400 p-1 text-white text-xl rounded-lg font-bold">
     </form>
 </section>
