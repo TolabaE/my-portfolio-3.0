@@ -36,8 +36,8 @@ const {title,description,tecnology,github,deploy,imagen} = Astro.props;
             </div>
         </div>
         <div class="flex justify-around">
-            <button class="bg-black text-sm md:text-base font-semibold lg:px-4 py-1 px-2 rounded-lg"><a href={github}>Github</a></button>
-            <button class="bg-cyan-400 text-sm md:text-base font-semibold lg:px-4 py-1 px-2 rounded-lg"><a href={deploy}>Deploy</a></button>
+            <button class="bg-neutral-900 text-sm md:text-base font-semibold lg:px-4 py-1 px-2 rounded-lg btn-github"><a href={github} target="_blank">Github</a></button>
+            <button class="bg-cyan-400 text-sm md:text-base font-semibold lg:px-4 py-1 px-2 rounded-lg btn-demo"><a href={deploy} target="_blank">Deploy</a></button>
         </div>
     </div>
     <div class="animation-card">
@@ -51,7 +51,7 @@ const {title,description,tecnology,github,deploy,imagen} = Astro.props;
         border: 4px solid cyan;
         position: relative;
         width: 400px;
-        height: 320px;
+        height: 330px;
         border-radius: 8px;
     }
     .card__project-image{
@@ -85,6 +85,12 @@ const {title,description,tecnology,github,deploy,imagen} = Astro.props;
         height: 100%;
         transition: all 1s;
         box-shadow: 0 0 25px #00E8F8;
+    }
+    .btn-github:hover{
+        box-shadow: 0 0 20px #6e6e6e;
+    }
+    .btn-demo:hover{
+        box-shadow: 0 0 20px #00E8F8;
     }
     /*estilo para mobile  */
     @media screen and (max-width:767px) {
