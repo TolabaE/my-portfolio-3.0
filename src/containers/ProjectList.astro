@@ -1,6 +1,9 @@
 ---
 import CardProject from "../components/CardProject.astro";
+// import services from "../JSON/services.json"
 
+
+// const firstArray = services[0];
 const portfolioArray = [
     {
         nombre:"Proyecto de Desarrollo Web",
@@ -196,7 +199,7 @@ const portfolioArray = [
                 description={item.detalle}
                 github={item.repositorio}
                 deploy={item.demo}
-                tecnology={item.tecnologias}
+                tecnology={item.tecnologias} 
             />
         ))
     }

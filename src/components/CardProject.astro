@@ -1,14 +1,16 @@
 ---
 import CardImage from './CardImage.astro';
 
+type tecnologia={
+    src:string,
+    alt:string
+}
+
 interface Props {
     imagen:string,
     title:string,
     description:string,
-    tecnology:[{
-        src:string,
-        detail:string
-    }],
+    tecnology:Array<tecnologia>,
     github:string,
     deploy:string
 }
@@ -29,7 +31,7 @@ const {title,description,tecnology,github,deploy,imagen} = Astro.props;
                     tecnology.map(item =>(
                         <CardImage
                             image={item.src}
-                            detail={item.detail}
+                            detail={item.alt}
                         />
                     ))
                 }
@@ -44,7 +46,6 @@ const {title,description,tecnology,github,deploy,imagen} = Astro.props;
 
     </div>
 </div>
-
 
 <style>
     .card__project{
@@ -97,6 +98,9 @@ const {title,description,tecnology,github,deploy,imagen} = Astro.props;
         .card__project{
             width: 90vw;
             height:40vh;
+        }
+        .trabajo{
+            background-color: #00E8F8;
         }
     }
 
