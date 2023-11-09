@@ -1,12 +1,35 @@
 ---
+// import emailjs from '@emailjs/browser';
 
-if (Astro.request.method === "POST") {
-    try {
+// interface objetodato  {
+//     name:string,
+//     message:string,
+//     email:string
+// }
+
+
+// if (Astro.request.method === "POST") {
+//     try {
+//         const data = await Astro.request.formData();
+//         const name = data.get("first_name");
+//         const email = data.get("email");
+//         const  message = data.get("description");
+//         const info:objetodato= {
+//             name: data.get("first_name"),
+//             message,
+//             email
+//         }
+
+//         console.log(info);
+//         emailjs.sendForm(,)
         
-    } catch (error) {
-        console.log(error);
-    }
-}
+//         // Do something with the data
+//     } catch (error) {
+//         if (error instanceof Error) {
+//         console.error(error.message);
+//         }
+//     }
+// }
 
 
 
@@ -16,11 +39,11 @@ if (Astro.request.method === "POST") {
     <h2 class="text-cyan-400 text-center text-2xl md:text-4xl font-semibold">¡Contacto!</h2>
     <form action="#" class="form flex flex-col gap-4 rounded-md w-full md:w-3/4 lg:w-1/2" method="POST">
         <div class="flex flex-col gap-4 md:flex-row w-full">
-            <input type="text" name="first_name" placeholder="Nombre y apellido" class="p-2 border-2 border-cyan-400 bg-transparent rounded-lg md:w-1/2 font-semibold">
-            <input type="email" name="email" placeholder="Correo" class="p-2 border-2 border-cyan-400 bg-transparent rounded-lg md:w-1/2 font-semibold">
+            <input type="text" name="first_name" placeholder="Nombre y apellido" class="p-2 border-2 border-cyan-400 bg-transparent rounded-lg md:w-1/2 font-semibold text-cyan-400" required>
+            <input type="email" name="email" placeholder="Correo" class="p-2 border-2 border-cyan-400 bg-transparent rounded-lg md:w-1/2 font-semibold text-cyan-400" required>
         </div>
-        <textarea name="description" cols="30" rows="10" class="border-2 border-cyan-400 bg-transparent rounded-lg p-2 font-semibold" placeholder="Descripción de la consulta..."></textarea>
-        <input type="button" value="Enviar" class="border-2  border-cyan-400 rounded-lg p-1 text-cyan-400 text-xl font-bold md:w-1/4 animation-btn">
+        <textarea name="description" cols="30" rows="10" class="border-2 border-cyan-400 bg-transparent rounded-lg p-2 font-semibold text-cyan-400" placeholder="Descripción de la consulta..."></textarea>
+        <input type="submit" value="Enviar" class="border-2  border-cyan-400 rounded-lg p-1 text-cyan-400 text-xl font-bold md:w-1/4 animation-btn" required>
     </form>
 </section>
 
@@ -41,25 +64,21 @@ if (Astro.request.method === "POST") {
             color: #000;
         }
         @keyframes anime{
-            0%
+            25%
             {
                 border-top-color: #00E8F8;
             }
-            25%
+            50%
             {
                 border-right-color: #00E8F8;
             }
-            50%
+            75%
             {
                 border-bottom-color: #00E8F8;
             }
-            75%
-            {
-                border-left-color: #00E8F8;
-            }
             100%
             {
-                border-color: transparent;
+                border-left-color: #00E8F8;
             }
         }
     }
