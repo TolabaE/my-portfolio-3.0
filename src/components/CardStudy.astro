@@ -8,8 +8,11 @@ interface Props {
 const {instituto,titulo,fecha} = Astro.props;
 ---
 
-<div class="border-2 border-cyan-400 m-2 p-2 md:p-4 md:my-6 rounded-xl">
-    <h3 class="text-cyan-400 text-base md:text-2xl">{instituto}</h3>
+<div class="flex flex-col border-2 border-cyan-400 m-2 p-2 rounded-xl md:p-4 md:my-6 w-32 md:w-72 md:gap-2">
+    <h3 class="text-cyan-400 text-base md:text-2xl text-center">{instituto}</h3>
+    <img src="https://us.123rf.com/450wm/outchill/outchill1712/outchill171201487/91259550-ejemplo-texto-escrito-en-sello-con-textura-vintage-de-goma-redonda-amarilla.jpg?ver=6" alt="imagen del certificado" class="w-full rounded-md">
+    <h2 class="text-cyan-400">Estudio Secundario</h2>
     <p class="text-base md:text-xl">{titulo}</p>
     <p class="text-sm md:text-base"><span class="text-cyan-400">Periodo | </span> {fecha}</p>
+    <b>Estado: Cursando</b>
 </div>
