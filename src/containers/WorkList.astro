@@ -1,0 +1,39 @@
+---
+import CardWork from "../components/CardWork.astro";
+
+const expLaboral = [
+    {
+        nombre:"No Country",
+        fecha:"Octubre 2023 - presente",
+        logo:"https://media.licdn.com/dms/image/C4D0BAQHJ8T4EUDhVTQ/company-logo_100_100/0/1657893488557/nocountryforjuniordevs_logo?e=1707955200&v=beta&t=l6kMFQT8818koSVY_Ad8nGkKRQnXg1CrnCjWqf-Pyq0",
+        puesto:"Desarrollador Back-end"
+    },
+    {
+        nombre:"Foo Talent",
+        fecha:"Agosto 2023 - Septiembre 2023",
+        logo:"https://media.licdn.com/dms/image/D4D0BAQEPkqWwwIOdyw/company-logo_200_200/0/1688088789178/footalent_logo?e=1707955200&v=beta&t=FigQamq3khlsiluRuaVE7Kp0DzghhPT5Y-Q3xjqG23A",
+        puesto:"Desarrollador Front-end"
+    }
+    // {
+    //     nombre:"Trabajo Freelance",
+    //     fecha:"Febrero 2023 - presente",
+    //     logo:"https://www.contabilizei.com.br/contabilidade-online/wp-content/uploads/2020/09/freelancer-maos-scaled-e1601409711670.jpg",
+    //     puesto:"desarrollador full stack"
+    // }
+];
+
+---
+
+<div>
+    <h2 class="text-center font-semibold text-2xl md:text-4xl text-white">Experiencia <span class=" text-cyan-400">Laboral</span></h2>
+    {
+        expLaboral.map(item =>(
+            <CardWork
+                periodo={item.fecha}
+                empresa={item.nombre}
+                empleo={item.puesto}
+                logoEmpresa={item.logo}
+            />
+        ))
+    }
+</div>
