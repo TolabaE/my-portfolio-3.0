@@ -1,35 +1,35 @@
 ---
-// import emailjs from '@emailjs/browser';
 
-// interface objetodato  {
-//     name:string,
-//     message:string,
-//     email:string
-// }
+let estado = "";
 
+if (Astro.request.method === "POST") {
+    try {
+        const data = await Astro.request.formData();
+        data
+        const nombre= data.get("first_name");
+        const correo = data.get("email");
+        const mensaje = data.get("description");
 
-// if (Astro.request.method === "POST") {
-//     try {
-//         const data = await Astro.request.formData();
-//         const name = data.get("first_name");
-//         const email = data.get("email");
-//         const  message = data.get("description");
-//         const info:objetodato= {
-//             name: data.get("first_name"),
-//             message,
-//             email
-//         }
-
-//         console.log(info);
-//         emailjs.sendForm(,)
+        const info = {nombre,mensaje,correo};      
         
-//         // Do something with the data
-//     } catch (error) {
-//         if (error instanceof Error) {
-//         console.error(error.message);
-//         }
-//     }
-// }
+        await fetch(`${import.meta.env.URL_SERVER}`,{
+            method:'POST',
+            body: JSON.stringify(info),
+            headers:{'Content-type':'application/json'}
+        })
+        .then(resp => resp.json())
+        .then(result =>{
+            if (result.status === "200") {
+                estado="mensaje enviado con exito";
+            }
+        })
+        
+    } catch (error) {
+        if (error instanceof Error) {
+        console.error(error.message);
+        }
+    }
+}
 
 
 
@@ -37,6 +37,7 @@
 
 <section class="flex flex-col items-center justify-center m-4 md:my-10 gap-y-8" id="contact" >
     <h2 class="text-cyan-400 text-center text-2xl md:text-4xl font-semibold">¡Contacto!</h2>
+    <p class=" text-green-500"> {estado} </p>
     <form action="#" class="form flex flex-col gap-4 rounded-md w-full md:w-3/4 lg:w-1/2" method="POST">
         <div class="flex flex-col gap-4 md:flex-row w-full">
             <input type="text" name="first_name" placeholder="Nombre y apellido" class="p-2 border-2 border-cyan-400 bg-transparent rounded-lg md:w-1/2 font-semibold text-cyan-400" required>
