@@ -159,5 +159,38 @@
             }
         ],
         "portada":"/images/proyectobackend.png"
+    },
+    {
+        "nombre":"Cai Ventures",
+        "detalle":"Trabaje en un proyecto real para una pequeña empresa de PERU, es un sitio web que brinda asesoria de tesis a distintos estudiantes de esa pais.",
+        "repositorio":"https://github.com/TolabaE/cai-ventures-consultoria",
+        "demo":"https://www.caiventuresconsultoria.com/",
+        "tecnologias":[
+            {
+                "src":"https://blog.hubspot.es/hubfs/media/imagenhtmlejemplo.png",
+                "alt":"imagen del logo de html5"
+            },
+            {
+                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+                "alt":"imagen del logo de css3"
+            },
+            {
+                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+                "alt":"logo de javascript"
+            },
+            {
+                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
+                "alt":"logo del frameworks react.js"
+            },
+            {
+                "src": "https://blog.baehost.com/wp-content/uploads/2017/12/bootstrap.png",
+                "alt": "imagen del logo de bootstrap"
+            },
+            {
+                "src":"https://sgo.pm.ce.gov.br/_lib/libraries/grp/sweetalert/sweetalert2-9.7.2/assets/swal2-logo-square.png",
+                "alt":"sweetalert"
+            }
+        ],
+        "portada":"./images/caiventures.png"
     }
 ]

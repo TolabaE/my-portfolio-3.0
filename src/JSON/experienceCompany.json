@@ -1,0 +1,101 @@
+[
+    {
+        "nombre":"Cai Ventures",
+        "detalle":"Realizado para mi curso de javascript, es un ecommerce que simula ser una ferreteria, usando javascript vanilla y con almacenamiento de carrito en el localstorage.",
+        "repositorio":"https://github.com/TolabaE/cai-ventures-consultoria",
+        "demo":"https://www.caiventuresconsultoria.com/",
+        "tecnologias":[
+            {
+                "src":"https://blog.hubspot.es/hubfs/media/imagenhtmlejemplo.png",
+                "alt":"imagen del logo de html5"
+            },
+            {
+                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+                "alt":"imagen del logo de css3"
+            },
+            {
+                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+                "alt":"logo de javascript"
+            },
+            {
+                "src": "https://blog.baehost.com/wp-content/uploads/2017/12/bootstrap.png",
+                "alt": "imagen del logo de bootstrap"
+            },
+            {
+                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMd7eiGMX9FwRLC0uJTDewSjw_7_WvCF4ABLdwztLrCnPEXrqW0gG-pH8eT-fYPLlghjY&usqp=CAU",
+                "alt": "logo del sass"
+            },
+            {
+                "src":"https://sgo.pm.ce.gov.br/_lib/libraries/grp/sweetalert/sweetalert2-9.7.2/assets/swal2-logo-square.png",
+                "alt":"sweetalert"
+            }
+        ],
+        "portada":"/images/imagendefondo.webp"
+    },
+    {
+        "nombre":"Proyecto Javascript",
+        "detalle":"Realizado para mi curso de javascript, es un ecommerce que simula ser una ferreteria, usando javascript vanilla y con almacenamiento de carrito en el localstorage.",
+        "repositorio":"https://github.com/TolabaE/proyectoJavaScript",
+        "demo":"https://ecommerceferreteria.netlify.app/",
+        "tecnologias":[
+            {
+                "src":"https://blog.hubspot.es/hubfs/media/imagenhtmlejemplo.png",
+                "alt":"imagen del logo de html5"
+            },
+            {
+                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+                "alt":"imagen del logo de css3"
+            },
+            {
+                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+                "alt":"logo de javascript"
+            },
+            {
+                "src": "https://blog.baehost.com/wp-content/uploads/2017/12/bootstrap.png",
+                "alt": "imagen del logo de bootstrap"
+            },
+            {
+                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMd7eiGMX9FwRLC0uJTDewSjw_7_WvCF4ABLdwztLrCnPEXrqW0gG-pH8eT-fYPLlghjY&usqp=CAU",
+                "alt": "logo del sass"
+            },
+            {
+                "src":"https://sgo.pm.ce.gov.br/_lib/libraries/grp/sweetalert/sweetalert2-9.7.2/assets/swal2-logo-square.png",
+                "alt":"sweetalert"
+            }
+        ],
+        "portada":"/images/imagendefondo.webp"
+    },
+    {
+        "nombre":"Proyecto Javascript",
+        "detalle":"Realizado para mi curso de javascript, es un ecommerce que simula ser una ferreteria, usando javascript vanilla y con almacenamiento de carrito en el localstorage.",
+        "repositorio":"https://github.com/TolabaE/proyectoJavaScript",
+        "demo":"https://ecommerceferreteria.netlify.app/",
+        "tecnologias":[
+            {
+                "src":"https://blog.hubspot.es/hubfs/media/imagenhtmlejemplo.png",
+                "alt":"imagen del logo de html5"
+            },
+            {
+                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+                "alt":"imagen del logo de css3"
+            },
+            {
+                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+                "alt":"logo de javascript"
+            },
+            {
+                "src": "https://blog.baehost.com/wp-content/uploads/2017/12/bootstrap.png",
+                "alt": "imagen del logo de bootstrap"
+            },
+            {
+                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMd7eiGMX9FwRLC0uJTDewSjw_7_WvCF4ABLdwztLrCnPEXrqW0gG-pH8eT-fYPLlghjY&usqp=CAU",
+                "alt": "logo del sass"
+            },
+            {
+                "src":"https://sgo.pm.ce.gov.br/_lib/libraries/grp/sweetalert/sweetalert2-9.7.2/assets/swal2-logo-square.png",
+                "alt":"sweetalert"
+            }
+        ],
+        "portada":"/images/imagendefondo.webp"
+    }
+]
