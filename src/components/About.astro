@@ -1,5 +1,4 @@
 ---
-import StudyList from '../containers/StudyList.astro';
 
 ---
 
@@ -7,7 +6,7 @@ import StudyList from '../containers/StudyList.astro';
     <h2 class="text-center text-2xl md:text-4xl font-semibold text-white">Sobre <span class="text-cyan-400">Mi</span></h2>
     <div class="flex flex-col-reverse gap-y-4 py-2 md:py-12 items-center justify-center lg:flex-row md:justify-around">
         <div class="dimension bg-gray-800 rounded-xl md:rounded-3xl flex justify-center items-center shadow-slate-600 shadow-xl">
-            <img src="/images/IMG-20221117-WA0011.jpg" alt="foto de perfil del candidato" class="rounded-xl" width="70%">
+            <img src="./images/userImages/C5XZdti8rF6fnSN5fci3M-transformed.png" alt="foto de perfil del candidato" class="rounded-xl" width="90%">
         </div>
         <div class="m-4 lg:w-6/12 flex flex-col gap-y-4">
             <p class="text-cyan-400 text-base md:text-xl font-semibold">Soy curioso, autodidacta, siempre estoy en constante aprendizaje de nuevas herramientas, ademas realizo proyectos freelance para mejorar mi expertis como programador.</p>
@@ -20,13 +19,12 @@ import StudyList from '../containers/StudyList.astro';
             <button class="text-cyan-400 border-2 border-cyan-400 p-2 text-xs md:text-base lg:text-xl font-bold rounded-lg m-auto hover:shadow-md hover:text-zinc-900 md:hover:border-zinc-900 btn-cv"><a href="./assets/eduardo-tolaba cv-it.pdf" download="Eduardo-CV-IT">Descargar CV</a></button>
         </div>
     </div>
-    <StudyList/>
 </section>
 
 <style>
 .dimension{
-    width: 420px;
-    height: 420px;
+    width: 400px;
+    height: 400px;
 }
 .btn-cv:hover{
     box-shadow: 0 0 25px #00E8F8;
