@@ -3,10 +3,11 @@ interface Props {
     periodo:string,
     empresa:string,
     empleo:string,
-    logoEmpresa:string
+    logoEmpresa:string,
+    contrato:string
 }
 
-const {periodo,empresa,empleo,logoEmpresa} = Astro.props;
+const {periodo,empresa,empleo,logoEmpresa,contrato} = Astro.props;
 
 ---
 <div class="flex justify-between border-2 rounded-md md:rounded-xl lg:border-2 m-4 p-4 md:m-8 animation items-center">
@@ -14,6 +15,7 @@ const {periodo,empresa,empleo,logoEmpresa} = Astro.props;
         <h3 class="text-lg lg:text-2xl text-cyan-400 font-semibold">Empresa: <span class="text-white">{empresa}</span></h3>
         <p class="text-cyan-400 text-sm lg:text-lg font-bold">Sector: <span class="text-white">{empleo}</span></p>
         <p class="text-cyan-400 font-semibold text-sm lg:text-base">Periodo: <span class="text-white">{periodo}</span> </p>
+        <p class="text-white font-semibold">Contrato: <span class="text-cyan-400">{contrato}</span></p>
     </div>
     <img src={logoEmpresa} alt="imagen de la empresa" class="w-20 lg:w-28 rounded-md shadow shadow-cyan-400">
 </div>
@@ -24,21 +26,21 @@ const {periodo,empresa,empleo,logoEmpresa} = Astro.props;
     }
 
     @keyframes pintborder{
-            25%
-            {
-                border-top-color: #00E8F8;
-            }
-            50%
-            {
-                border-right-color: #00E8F8;
-            }
-            75%
-            {
-                border-bottom-color: #00E8F8;
-            }
-            100%
-            {
-                border-left-color: #00E8F8;
-            }
+        25%
+        {
+            border-top-color: #00E8F8;
         }
+        50%
+        {
+            border-right-color: #00E8F8;
+        }
+        75%
+        {
+            border-bottom-color: #00E8F8;
+        }
+        100%
+        {
+            border-left-color: #00E8F8;
+        }
+    }
 </style>

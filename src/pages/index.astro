@@ -6,7 +6,7 @@ import Services from '../components/Services.astro';
 import Portfolio from '../components/Portfolio.astro';
 // import Contact from '../components/Contact.astro';
 import WorkList from '../containers/WorkList.astro';
-// import Contact from '../components/Contact';
+import Contact from '../components/Contact';
 import Carrusel from '../components/Carrusel';
 
 
@@ -14,9 +14,9 @@ import Carrusel from '../components/Carrusel';
 <Layout>
 	<Home/>
 	<About/>
-	<Carrusel client:only/>
+	<Carrusel client:only="react"/>
 	<WorkList/>
 	<Services/>
 	<Portfolio/>
-	<!-- <Contact client:load/> -->
+	<Contact client:only="react"/>
 </Layout>
