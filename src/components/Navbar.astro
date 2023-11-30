@@ -17,9 +17,27 @@
         <a href="#about">Sobre Mi</a>
         <a href="#services">Servicios</a>
         <a href="#portfolio">Proyectos</a>
-        <!-- <a href="#contact">Contacto</a> -->
+        <a href="#contact" class="etiqueta anchor">Contacto</a>
     </nav>
 </header>
+
+<!-- <script>
+    const click = document.querySelector('.anchor')
+
+    const [ etiquetaEnlace, etiquetaDestino ] = document.querySelectorAll('.etiqueta') as unknown as [ HTMLElement, HTMLElement]
+    console.log(etiquetaEnlace);
+    // const [ etiquetaEnlace1, etiquetaEnlace2, etiquetaDestino ] = document.querySelectorAll(claseScroll) 
+	// click.forEach( (etiqueta:HTMLAnchorElement) => {
+
+    // });
+    click?.addEventListener('click',(e:any) =>{
+        const [ etiquetaEnlace2, etiquetaDestino2 ] = document.querySelectorAll('.etiqueta') as unknown as [ HTMLElement, HTMLElement]
+        console.log(etiquetaDestino2);
+    e.preventDefault()
+    window.scrollTo({top:etiquetaDestino2.offsetTop, behavior: 'smooth' })
+    console.log('hola');
+    })
+</script> -->
 
 <style>
 header {
@@ -64,7 +82,7 @@ nav a:hover {
     display: none;
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:1023px) {
     .menu {
         display: block;
         font-size: 24px;

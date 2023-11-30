@@ -61,8 +61,6 @@ const Carrusel = () => {
                 modules={[Navigation,Pagination]}
                 spaceBetween={20}
                 slidesPerView={quantity}
-                // onSlideChange={() => console.log('slide change')}
-                // onSwiper={(swiper) => console.log(swiper)}
                 >
                     {
                         array.map(item =>(

@@ -1,6 +1,5 @@
 import React,{useState} from 'react';
 import './contact.css';
-// import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Swal from 'sweetalert2';
@@ -8,6 +7,7 @@ import Swal from 'sweetalert2';
 import { SpinnerCircularFixed } from 'spinners-react';
 
 const Contact = () => {
+
     const [loading, setloading] = useState(false);
 
 
@@ -39,17 +39,10 @@ const Contact = () => {
                 e.target.reset();//limpia el formulario
             }
         }).catch(error => console.log(error));
-
-        // console.log(import.meta.env.PUBLIC_KEY_SERVICES);
-        // emailjs.sendForm(import.meta.env.PUBLIC_KEY_SERVICES,import.meta.env.PUBLIC_KEY_TEMPLATE, info ,import.meta.env.PUBLIC_KEY_PUBLIC)
-        // .then(res=>res.json())
-        // .then(result =>{
-        //     console.log(result);
-        // })
     }
     
     return (
-        <section className="flex flex-col items-center justify-center m-4 md:my-10 gap-y-8" id="contact">
+        <section className="etiqueta flex flex-col items-center justify-center m-4 md:my-10 gap-y-8" id="contact">
             <ToastContainer
                 position="top-right"
                 autoClose={1500}
@@ -72,7 +65,7 @@ const Contact = () => {
                 {
                     !loading 
                     ? <input type="submit" value="Enviar" className="border-2  border-cyan-400 rounded-lg p-1 text-cyan-400 text-xl font-bold md:w-1/4 animation-btn" />
-                    : <SpinnerCircularFixed size={81} thickness={100} speed={100} color="rgba(0, 232, 248, 1)" secondaryColor="rgba(0, 0, 0, 0.44)" /> 
+                    : <SpinnerCircularFixed size={70} thickness={100} speed={100} color="rgba(0, 232, 248, 1)" secondaryColor="rgba(0, 0, 0, 0.44)" /> 
                 }
             </form>
         </section>
