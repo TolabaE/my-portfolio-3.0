@@ -2,33 +2,35 @@
     color: #bbbbbb;
 }
 
-@media screen and (min-width: 768px) {
-    .animation-btn{
-        animation: anime 1.2s  linear  infinite;
-        border-color: transparent;
-        border-radius: 12px;
+.animation-btn{
+    animation: anime 1.2s  linear  infinite;
+    border-color: transparent;
+    border-radius: 12px;
+}
+
+@keyframes anime{
+    25%
+    {
+        border-top-color: #00E8F8;
     }
+    50%
+    {
+        border-right-color: #00E8F8;
+    }
+    75%
+    {
+        border-bottom-color: #00E8F8;
+    }
+    100%
+    {
+        border-left-color: #00E8F8;
+    }
+}
+
+@media screen and (min-width: 768px) {
     .animation-btn:hover{
         background-color: #40ecf8;
         box-shadow: 0 0 20px #00E8F8;
         color: #000;
-    }
-    @keyframes anime{
-        25%
-        {
-            border-top-color: #00E8F8;
-        }
-        50%
-        {
-            border-right-color: #00E8F8;
-        }
-        75%
-        {
-            border-bottom-color: #00E8F8;
-        }
-        100%
-        {
-            border-left-color: #00E8F8;
-        }
     }
 }

@@ -190,17 +190,17 @@
             "description":"imagen del logo de javascript"
         },
         {
-            "name":"Node Js",
+            "name":"Nodejs",
             "image":"https://victorroblesweb.es/wp-content/uploads/2018/01/nodejs-victorroblesweb.png",
             "description":"imagen del logo de node.js"
         },
         {
-            "name":"React Js",
+            "name":"React.js",
             "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
             "description":"imagen del logo de react js"
         },
         {
-            "name":"Express Js",
+            "name":"Express.js",
             "image":"https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
             "description":"logo del framework express js"
         },
@@ -235,9 +235,14 @@
             "description":"logo de github"
         },
         {
-            "name":"Astro JS",
+            "name":"Astro.js",
             "image":"https://avatars.githubusercontent.com/u/44914786?s=280&v=4",
             "description":"logo del framework Astro js"
+        },
+        {
+            "name": "Angular.js",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png",
+            "description": "logo del framework angular"
         },
         {
             "name":"Typescript",

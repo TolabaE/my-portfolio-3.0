@@ -53,7 +53,7 @@ const Carrusel = () => {
 
     return (
         <div className='my-6 md:my-4 p-2 md:p-8'>
-             <Swiper
+            <Swiper
                 pagination={{
                     type: 'progressbar',
                 }}
