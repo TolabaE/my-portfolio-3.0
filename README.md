@@ -19,6 +19,7 @@ Portafolio: [ eduardotolaba-portfolio.vercel.app/ ](eduardotolaba-portfolio.verc
 + [swiper](https://www.npmjs.com/package/swiper)
 + [react-toastify](https://www.npmjs.com/package/react-toastify)
 + [spinner-react](https://mhnpd.github.io/react-loader-spinner/)
++ [react-loader-spinner](https://mhnpd.github.io/react-loader-spinner/)
 + [vercel](https://vercel.com/)
 
  ## Autor ✒️
