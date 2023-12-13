@@ -64,7 +64,7 @@ const Contact = () => {
                 pauseOnHover
                 theme="colored"
             />
-            <h2 className="text-cyan-400 text-center text-2xl md:text-4xl font-semibold">¡Contacto!</h2>
+            <h2 className="text-cyan-400 text-center text-2xl md:text-4xl font-semibold">Contacto</h2>
             {
                 active 
                 ? <form className="form flex flex-col gap-4 rounded-md w-full md:w-3/4 lg:w-1/2" onSubmit={handleSumbit}>
@@ -79,7 +79,7 @@ const Contact = () => {
                         : <SpinnerCircularFixed size={70} thickness={100} speed={100} color="rgba(0, 232, 248, 1)" secondaryColor="rgba(0, 0, 0, 0.44)" /> 
                     }
                 </form>
-                : <div className="flex flex-col">
+                : <div className="flex flex-col justify-center items-center">
                     <Comment
                         visible={true}
                         height={`${anchopantalla>=768 ? "450": "300"}`}
@@ -90,7 +90,8 @@ const Contact = () => {
                         color="#fff"
                         backgroundColor="#00E8F8"
                     />
-                    <span className="text-center text-gray-200 text-base md:text-2xl font-semibold">Preparando <span className='text-cyan-400'>el formulario</span></span>
+                    <p className="text-center text-cyan-400 text-base md:text-2xl font-semibold">¡Preparando <span className='text-gray-200'>el formulario!</span></p>
+                    <small className='text-gray-400'> Espere unos segundos mientras nos conectamos con el servidor, Esto se debe a que el mismo se apaga por inactividad.</small>
                 </div>
             }
         </section>

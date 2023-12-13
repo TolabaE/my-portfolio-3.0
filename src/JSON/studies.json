@@ -54,13 +54,5 @@
         "inicio":"Abril 2022 - Febrero 2023",
         "state":"Finalizado",
         "certificado":"./images/certificates/fundacionempujar.png"
-    },
-    {
-        "id":8,
-        "facultad":"Instituto Superior Lenguas Vivas",
-        "carrera":"Idioma Ingles",
-        "inicio":"Marzo 2020 - Presente",
-        "state":"Cursando",
-        "certificado":"./images/certificates/certificado-ingles-pae.jpg"
     }
 ]

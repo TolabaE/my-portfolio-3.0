@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { Navigation,Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import StudyCard from './StudyCard';
 import studies from '../JSON/studies.json';
 
@@ -57,8 +57,12 @@ const Carrusel = () => {
                 pagination={{
                     type: 'progressbar',
                 }}
+                autoplay={{
+                    delay:2500,
+                    disableOnInteraction:false
+                }}
                 navigation={navigation}
-                modules={[Navigation,Pagination]}
+                modules={[Navigation,Pagination,Autoplay]}
                 spaceBetween={20}
                 slidesPerView={quantity}
                 >
