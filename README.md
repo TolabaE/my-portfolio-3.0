@@ -1,7 +1,10 @@
 # Mi portafolio version 3.0
-Este proyecto esta realizo para mostrar mi perfil y mi stack de tecnologias que domino, siempre esta en constante cambio, agregando nuevas funcionalidades, pero va tomando forma.
+Este proyecto esta realizo para mostrar mi perfil y stack de tecnologias que manejo,  ademas al ser realizado en el framework Astro.js  me da la libertad de aprender del mismo, por su sintaxis simple y permite  reutilizar componentes que ya puedas tener. React, Preact, Svelte, Vue, Solid, Lit y otros, incluidos los web components, son compatibles para la creación de componentes de UI en un proyecto de Astro..
 
-`Nota`: Ademas envia los datos del formulario a un servidor backend que procesa la información y lo recibo en mi email asociado. 
+`Siempre esta en constante cambio, agregando mejoras en el diseño, estilo, por lo que nunca estara terminado.`
+
+`Nota`: Ademas envia los datos del formulario a un servidor backend desarrollado en nodejs y express.js, que procesa la información y lo envia a mi email asociado.
+
 ## Link de deploy 🌐
 El proyecto esta deployado en vercel
 

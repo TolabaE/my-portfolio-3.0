@@ -64,7 +64,7 @@ const Contact = () => {
                 pauseOnHover
                 theme="colored"
             />
-            <h2 className="text-cyan-400 text-center text-2xl md:text-4xl font-semibold">Contacto</h2>
+            <h2 className="text-cyan-400 text-center text-2xl md:text-4xl font-semibold"><span className="text-white">Mi</span> Contacto</h2>
             {
                 active 
                 ? <form className="form flex flex-col gap-4 rounded-md w-full md:w-3/4 lg:w-1/2" onSubmit={handleSumbit}>
