@@ -91,7 +91,7 @@ const Contact = () => {
                         backgroundColor="#00E8F8"
                     />
                     <p className="text-center text-cyan-400 text-base md:text-2xl font-semibold">¡Preparando <span className='text-gray-200'>el formulario!</span></p>
-                    <small className='text-gray-400'> Espere unos segundos mientras nos conectamos con el servidor, Esto se debe a que el mismo se apaga por inactividad.</small>
+                    <small className='text-gray-400'>Espere unos segundos mientras se conecta al servidor, el mismo se apaga por inactividad.</small>
                 </div>
             }
         </section>

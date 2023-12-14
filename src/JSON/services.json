@@ -215,7 +215,7 @@
             "description":"logo del compilador sass"
         },
         {
-            "name":"Tailwindcss",
+            "name":"Tailwind",
             "image":"https://cms-assets.tutsplus.com/uploads/users/30/posts/34128/preview_image/tailwindcss-pre.png",
             "description":"imagen del logo de tailwindcss"
         },
@@ -245,7 +245,7 @@
             "description": "logo del framework angular"
         },
         {
-            "name":"Typescript",
+            "name":"TypesScript",
             "image":"https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png",
             "description":"imagen del logo de typescript"
         },
