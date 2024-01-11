@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { successAlert } from '../utils/alerts.js';
 import { SpinnerCircularFixed } from 'spinners-react';
 import { Comment } from  'react-loader-spinner';
+import LoadingContact from './LoadingContact';
 
 const Contact = () => {
 
@@ -64,7 +65,7 @@ const Contact = () => {
                 pauseOnHover
                 theme="colored"
             />
-            <h2 className="text-cyan-400 text-center text-2xl md:text-4xl font-semibold"><span className="text-white">Mi</span> Contacto</h2>
+            <h2 className="text-cyan-400 text-center text-2xl md:text-4xl font-semibold"><span className="text-white">Mis</span> Contactos</h2>
             {
                 active 
                 ? <form className="form flex flex-col gap-4 rounded-md w-full md:w-3/4 lg:w-1/2" onSubmit={handleSumbit}>
@@ -79,20 +80,7 @@ const Contact = () => {
                         : <SpinnerCircularFixed size={70} thickness={100} speed={100} color="rgba(0, 232, 248, 1)" secondaryColor="rgba(0, 0, 0, 0.44)" /> 
                     }
                 </form>
-                : <div className="flex flex-col justify-center items-center">
-                    <Comment
-                        visible={true}
-                        height={`${anchopantalla>=768 ? "450": "300"}`}
-                        width={`${anchopantalla>=768 ? "450": "300"}`}
-                        ariaLabel="comment-loading"
-                        wrapperStyle={{}}
-                        wrapperClass="comment-wrapper"
-                        color="#fff"
-                        backgroundColor="#00E8F8"
-                    />
-                    <p className="text-center text-cyan-400 text-base md:text-2xl font-semibold">¡Preparando <span className='text-gray-200'>el formulario!</span></p>
-                    <small className='text-gray-400'>Espere unos segundos mientras se conecta al servidor, el mismo se apaga por inactividad.</small>
-                </div>
+                :<LoadingContact/>
             }
         </section>
     );

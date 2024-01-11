@@ -253,11 +253,6 @@
             "name":"MySQL",
             "image":"https://cdn.icon-icons.com/icons2/2415/PNG/512/mysql_original_wordmark_logo_icon_146417.png",
             "description":"logo de base de datos SQL"
-        },
-        {
-            "name":"Firebase",
-            "image":"https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_171157.png",
-            "description":"imagen del logo de firebase"
         }
     ]
 ]
