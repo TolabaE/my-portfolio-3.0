@@ -94,6 +94,12 @@ const {title,description,tecnology,github,deploy,imagen} = Astro.props;
     .btn-demo:hover{
         box-shadow: 0 0 20px #00E8F8;
     }
+    @media screen and (min-width:1536px) {
+        .card__project{
+        width: 500px;
+        height: 420px;
+    }
+    }
     /*estilo para mobile  */
     @media screen and (max-width:767px) {
         .card__project{

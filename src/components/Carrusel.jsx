@@ -10,7 +10,7 @@ import studies from '../JSON/studies.json';
 
 const Carrusel = () => {
 
-    const [navigation, setNavigation] = useState(false);
+    const [navigation, setNavigation] = useState(true);
     const [array, setArray] = useState([]); 
     const [quantity, setQuantity] = useState(0);
 
@@ -18,7 +18,11 @@ const Carrusel = () => {
         //evento escucha por el cambio en el ancho de la pantalla.
         window.addEventListener('resize',(e)=>{
             let value = e.target.innerWidth;
-            if (value >= 1024) {
+
+            if (value >= 1536) {
+                setQuantity(4);
+                setNavigation(true);
+            }else if(value >= 1024){
                 setQuantity(3);
                 setNavigation(true);
             }else if(value >= 768){
@@ -33,9 +37,12 @@ const Carrusel = () => {
 
     const setWidthStatic = ()=>{
         let anchoPantalla = window.innerWidth;
-        if (anchoPantalla >= 1024) {
-            setQuantity(3);
+        if (anchoPantalla >= 1536) {
+            setQuantity(4);
             setNavigation(true);
+        }else if(anchoPantalla >= 768){
+            setQuantity(3);
+            setNavigation(true)
         }else if(anchoPantalla >= 768){
             setQuantity(2);
             setNavigation(true)

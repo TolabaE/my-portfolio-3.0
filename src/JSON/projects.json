@@ -1,196 +1,245 @@
 [
-    {
-        "nombre":"Proyecto de Desarrollo Web",
-        "detalle":"Sitio web realizado para mi curso de desarrollo web, basado en una guia turistica de un departamento ubicado en Salta, encontraras información principalmente sobre su economia, lugares turisticos, productos regionales y gastronomia.",
-        "repositorio":"https://github.com/TolabaE/proyectoWeb",
-        "demo":"https://pimentonrojo.netlify.app/",
-        "tecnologias":[
-            {
-                "src":"https://blog.hubspot.es/hubfs/media/imagenhtmlejemplo.png",
-                "alt":"imagen del logo de html5"
-            },
-            {
-                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
-                "alt":"imagen del logo de css3"
-            },
-            {
-                "src": "https://blog.baehost.com/wp-content/uploads/2017/12/bootstrap.png",
-                "alt": "imagen del logo de bootstrap"
-            },
-            {
-                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMd7eiGMX9FwRLC0uJTDewSjw_7_WvCF4ABLdwztLrCnPEXrqW0gG-pH8eT-fYPLlghjY&usqp=CAU",
-                "alt": "logo del compilador sass"
-            }
-        ],
-        "portada":"/images/proyectoweb.webp"
-    },
-    {
-        "nombre":"Proyecto Javascript",
-        "detalle":"Realizado para mi curso de javascript, es un ecommerce que simula ser una ferreteria, usando javascript vanilla y con almacenamiento de carrito en el localstorage.",
-        "repositorio":"https://github.com/TolabaE/proyectoJavaScript",
-        "demo":"https://ecommerceferreteria.netlify.app/",
-        "tecnologias":[
-            {
-                "src":"https://blog.hubspot.es/hubfs/media/imagenhtmlejemplo.png",
-                "alt":"imagen del logo de html5"
-            },
-            {
-                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
-                "alt":"imagen del logo de css3"
-            },
-            {
-                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-                "alt":"logo de javascript"
-            },
-            {
-                "src": "https://blog.baehost.com/wp-content/uploads/2017/12/bootstrap.png",
-                "alt": "imagen del logo de bootstrap"
-            },
-            {
-                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMd7eiGMX9FwRLC0uJTDewSjw_7_WvCF4ABLdwztLrCnPEXrqW0gG-pH8eT-fYPLlghjY&usqp=CAU",
-                "alt": "logo del sass"
-            },
-            {
-                "src":"https://sgo.pm.ce.gov.br/_lib/libraries/grp/sweetalert/sweetalert2-9.7.2/assets/swal2-logo-square.png",
-                "alt":"sweetalert"
-            }
-        ],
-        "portada":"/images/imagendefondo.webp"
-    },
-    {
-        "nombre":"Chats en Node.js",
-        "detalle":"Trabajando con servidor en express.js y usando socket.io, desarrolle un chats de comunicación grupal, donde los mensajes son cargados en tiempo real, esto permite una comunicación fluida, sin tener que refrescar la pagina.",
-        "repositorio":"https://github.com/TolabaE/projectChatJs",
-        "demo":"https://project-chats-js.onrender.com/",
-        "tecnologias":[
-            {
-                "src":"https://progsoft.net/images/ejs-icon-bccf3f017751a71ee75c69021ee1020fc0d9067e.jpg",
-                "alt":"logo de la plantilla ejs"
-            },
-            {
-                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
-                "alt":"imagen del logo de css3"
-            },
-            {
-                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-                "alt":"logo de javascript"
-            },
-            {
-                "src":"https://victorroblesweb.es/wp-content/uploads/2018/01/nodejs-victorroblesweb.png",
-                "alt":"logo de node js"
-            },
-            {
-                "src":"https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_256/https://itsolution24x7.com/blog/wp-content/uploads/2020/06/socketio.png",
-                "alt":"logo de socket.io"
-            },
-            {
-                "src":"https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
-                "alt":"logo de express.js"
-            },
-            {
-                "src":"https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Pic.png",
-                "alt":"Logo de mongo DB"
-            }
-        ],
-        "portada":"/images/proyectochats.webp"
-    },
-    {
-        "nombre":"Proyecto en React.Js",
-        "detalle":"Usando firebase como base de datos, cree una tienda donde se puede comprar telefonos usados y nuevos de la marca samsung apple entre otras.",
-        "repositorio":"https://github.com/TolabaE/ecommerReactJs",
-        "demo":"https://ecommer-phone-store.netlify.app/",
-        "tecnologias":[
-            {
-                "src":"https://blog.hubspot.es/hubfs/media/imagenhtmlejemplo.png",
-                "alt":"imagen del logo de html5"
-            },
-            {
-                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
-                "alt":"imagen del logo de css3"
-            },
-            {
-                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-                "alt":"logo de javascript"
-            },
-            {
-                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
-                "alt":"logo del frameworks react.js"
-            },
-            {
-                "src":"https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_171157.png",
-                "alt":"logo de firebase"
-            },
-            {
-                "src": "https://blog.baehost.com/wp-content/uploads/2017/12/bootstrap.png",
-                "alt": "imagen del logo de bootstrap"
-            },
-            {
-                "src":"https://sgo.pm.ce.gov.br/_lib/libraries/grp/sweetalert/sweetalert2-9.7.2/assets/swal2-logo-square.png",
-                "alt":"sweetalert"
-            }
-        ],
-        "portada":"/images/proyectoReactJS.webp"
-    },
-    {
-        "nombre":"Proyecto Backend en express",
-        "detalle":"Proyecto en progreso.. usando las mejores practicas, desarrolle un ecommerce con un servidor y conectado a una base de datos en mongoDB, para guardar los registro de usuarios y los productos.",
-        "repositorio":"https://github.com/TolabaE/gamer-store-ecommerce",
-        "demo":"https://gamer-store-server.onrender.com/",
-        "tecnologias":[
-            {
-                "src":"https://progsoft.net/images/ejs-icon-bccf3f017751a71ee75c69021ee1020fc0d9067e.jpg",
-                "alt":"logo de la plantilla ejs"
-            },
-            {
-                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
-                "alt":"imagen del logo de css3"
-            },
-            {
-                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-                "alt":"logo de javascript"
-            },
-            {
-                "src":"https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
-                "alt":"logo de express.js"
-            },
-            {
-                "src":"https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Pic.png",
-                "alt":"Logo de mongo DB"
-            }
-        ],
-        "portada":"/images/proyectobackend.png"
-    },
-    {
-        "nombre":"Cai Ventures",
-        "detalle":"Trabaje en un proyecto real para una pequeña empresa de PERU, es un sitio web que brinda asesoria de tesis a distintos estudiantes de esa pais.",
-        "repositorio":"https://github.com/TolabaE/cai-ventures-consultoria",
-        "demo":"https://www.caiventuresconsultoria.com/",
-        "tecnologias":[
-            {
-                "src":"https://blog.hubspot.es/hubfs/media/imagenhtmlejemplo.png",
-                "alt":"imagen del logo de html5"
-            },
-            {
-                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
-                "alt":"imagen del logo de css3"
-            },
-            {
-                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
-                "alt":"logo de javascript"
-            },
-            {
-                "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
-                "alt":"logo del frameworks react.js"
-            },
-            {
-                "src": "https://blog.baehost.com/wp-content/uploads/2017/12/bootstrap.png",
-                "alt": "imagen del logo de bootstrap"
-            },
-            {
-                "src":"https://sgo.pm.ce.gov.br/_lib/libraries/grp/sweetalert/sweetalert2-9.7.2/assets/swal2-logo-square.png",
-                "alt":"sweetalert"
-            }
-        ],
-        "portada":"./images/caiventures.png"
-    }
+    [
+        {
+            "nombre":"Proyecto de Desarrollo Web",
+            "detalle":"Sitio web realizado para mi curso de desarrollo web, basado en una guia turistica de un departamento ubicado en Salta, encontraras información principalmente sobre su economia, lugares turisticos, productos regionales y gastronomia.",
+            "repositorio":"https://github.com/TolabaE/proyectoWeb",
+            "demo":"https://pimentonrojo.netlify.app/",
+            "tecnologias":[
+                {
+                    "src":"https://blog.hubspot.es/hubfs/media/imagenhtmlejemplo.png",
+                    "alt":"imagen del logo de html5"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+                    "alt":"imagen del logo de css3"
+                },
+                {
+                    "src": "https://blog.baehost.com/wp-content/uploads/2017/12/bootstrap.png",
+                    "alt": "imagen del logo de bootstrap"
+                },
+                {
+                    "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMd7eiGMX9FwRLC0uJTDewSjw_7_WvCF4ABLdwztLrCnPEXrqW0gG-pH8eT-fYPLlghjY&usqp=CAU",
+                    "alt": "logo del compilador sass"
+                }
+            ],
+            "portada":"/images/proyectoweb.webp"
+        },
+        {
+            "nombre":"Proyecto Javascript",
+            "detalle":"Realizado para mi curso de javascript, es un ecommerce que simula ser una ferreteria, usando javascript vanilla y con almacenamiento de carrito en el localstorage.",
+            "repositorio":"https://github.com/TolabaE/proyectoJavaScript",
+            "demo":"https://ecommerceferreteria.netlify.app/",
+            "tecnologias":[
+                {
+                    "src":"https://blog.hubspot.es/hubfs/media/imagenhtmlejemplo.png",
+                    "alt":"imagen del logo de html5"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+                    "alt":"imagen del logo de css3"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+                    "alt":"logo de javascript"
+                },
+                {
+                    "src": "https://blog.baehost.com/wp-content/uploads/2017/12/bootstrap.png",
+                    "alt": "imagen del logo de bootstrap"
+                },
+                {
+                    "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMd7eiGMX9FwRLC0uJTDewSjw_7_WvCF4ABLdwztLrCnPEXrqW0gG-pH8eT-fYPLlghjY&usqp=CAU",
+                    "alt": "logo del sass"
+                },
+                {
+                    "src":"https://sgo.pm.ce.gov.br/_lib/libraries/grp/sweetalert/sweetalert2-9.7.2/assets/swal2-logo-square.png",
+                    "alt":"sweetalert"
+                }
+            ],
+            "portada":"/images/imagendefondo.webp"
+        },
+        {
+            "nombre":"Chats en Node.js",
+            "detalle":"Trabajando con servidor en express.js y usando socket.io, desarrolle un chats de comunicación grupal, donde los mensajes son cargados en tiempo real, esto permite una comunicación fluida, sin tener que refrescar la pagina.",
+            "repositorio":"https://github.com/TolabaE/projectChatJs",
+            "demo":"https://project-chats-js.onrender.com/",
+            "tecnologias":[
+                {
+                    "src":"https://progsoft.net/images/ejs-icon-bccf3f017751a71ee75c69021ee1020fc0d9067e.jpg",
+                    "alt":"logo de la plantilla ejs"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+                    "alt":"imagen del logo de css3"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+                    "alt":"logo de javascript"
+                },
+                {
+                    "src":"https://victorroblesweb.es/wp-content/uploads/2018/01/nodejs-victorroblesweb.png",
+                    "alt":"logo de node js"
+                },
+                {
+                    "src":"https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_256/https://itsolution24x7.com/blog/wp-content/uploads/2020/06/socketio.png",
+                    "alt":"logo de socket.io"
+                },
+                {
+                    "src":"https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+                    "alt":"logo de express.js"
+                },
+                {
+                    "src":"https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Pic.png",
+                    "alt":"Logo de mongo DB"
+                }
+            ],
+            "portada":"/images/proyectochats.webp"
+        },
+        {
+            "nombre":"Proyecto en React.Js",
+            "detalle":"Usando firebase como base de datos, cree una tienda donde se puede comprar telefonos usados y nuevos de la marca samsung apple entre otras.",
+            "repositorio":"https://github.com/TolabaE/ecommerReactJs",
+            "demo":"https://ecommer-phone-store.netlify.app/",
+            "tecnologias":[
+                {
+                    "src":"https://blog.hubspot.es/hubfs/media/imagenhtmlejemplo.png",
+                    "alt":"imagen del logo de html5"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+                    "alt":"imagen del logo de css3"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+                    "alt":"logo de javascript"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
+                    "alt":"logo del frameworks react.js"
+                },
+                {
+                    "src":"https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_171157.png",
+                    "alt":"logo de firebase"
+                },
+                {
+                    "src": "https://blog.baehost.com/wp-content/uploads/2017/12/bootstrap.png",
+                    "alt": "imagen del logo de bootstrap"
+                },
+                {
+                    "src":"https://sgo.pm.ce.gov.br/_lib/libraries/grp/sweetalert/sweetalert2-9.7.2/assets/swal2-logo-square.png",
+                    "alt":"sweetalert"
+                }
+            ],
+            "portada":"/images/proyectoReactJS.webp"
+        },
+        {
+            "nombre":"Proyecto Backend en express",
+            "detalle":"Proyecto en progreso.. usando las mejores practicas, desarrolle un ecommerce con un servidor y conectado a una base de datos en mongoDB, para guardar los registro de usuarios y los productos.",
+            "repositorio":"https://github.com/TolabaE/gamer-store-ecommerce",
+            "demo":"https://gamer-store-server.onrender.com/",
+            "tecnologias":[
+                {
+                    "src":"https://progsoft.net/images/ejs-icon-bccf3f017751a71ee75c69021ee1020fc0d9067e.jpg",
+                    "alt":"logo de la plantilla ejs"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+                    "alt":"imagen del logo de css3"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+                    "alt":"logo de javascript"
+                },
+                {
+                    "src":"https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+                    "alt":"logo de express.js"
+                },
+                {
+                    "src":"https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Pic.png",
+                    "alt":"Logo de mongo DB"
+                }
+            ],
+            "portada":"/images/proyectobackend.png"
+        }
+    ],
+    [
+        {
+            "nombre":"Cai Ventures",
+            "detalle":"Proyecto real para una pequeña empresa de PERU, es un sitio web que brinda información de contacto, agendas de citas, contratos de servicios, asesoria de tesis a estudiantes de dicho pais. Ademas una sección de blog",
+            "repositorio":"https://github.com/TolabaE/cai-ventures-consultoria",
+            "demo":"https://www.caiventuresconsultoria.com/",
+            "tecnologias":[
+                {
+                    "src":"https://blog.hubspot.es/hubfs/media/imagenhtmlejemplo.png",
+                    "alt":"imagen del logo de html5"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+                    "alt":"imagen del logo de css3"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+                    "alt":"logo de javascript"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
+                    "alt":"logo del frameworks react.js"
+                },
+                {
+                    "src": "https://blog.baehost.com/wp-content/uploads/2017/12/bootstrap.png",
+                    "alt": "imagen del logo de bootstrap"
+                },
+                {
+                    "src":"https://sgo.pm.ce.gov.br/_lib/libraries/grp/sweetalert/sweetalert2-9.7.2/assets/swal2-logo-square.png",
+                    "alt":"sweetalert"
+                }
+            ],
+            "portada":"./images/caiventures.png"
+        },
+        {
+            "nombre":"Polo IT Buenos Aires",
+            "detalle":"Proyecto creado bajo el contexto de la Aceleradora IT, en conjunto con el Polo IT se solicita realizar una aplicación web que muestre un listado (con filtro incluído) de las empresas socias a dicha compañia con información básica de las mismas.",
+            "repositorio":"https://github.com/TolabaE/Proyecto-Polo-IT",
+            "demo":"https://proyecto-polo-it.netlify.app/",
+            "tecnologias":[
+                {
+                    "src":"https://blog.hubspot.es/hubfs/media/imagenhtmlejemplo.png",
+                    "alt":"imagen del logo de html5"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+                    "alt":"imagen del logo de css3"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+                    "alt":"logo de javascript"
+                },
+                {
+                    "src":"https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png",
+                    "alt":"typescript"
+                },
+                {
+                    "src":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
+                    "alt":"logo del frameworks react.js"
+                },
+                {
+                    "src":"https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Pic.png",
+                    "alt":"Logo de mongo DB"
+                },
+                {
+                    "src":"https://sgo.pm.ce.gov.br/_lib/libraries/grp/sweetalert/sweetalert2-9.7.2/assets/swal2-logo-square.png",
+                    "alt":"sweetalert"
+                },
+                {
+                    "src": "https://i0.wp.com/community.nodemailer.com/wp-content/uploads/2015/10/n2-2.png?fit=422%2C360&ssl=1",
+                    "alt": "imagen del servicio nodemailer"
+                },
+                {
+                    "src":"https://swiperjs.com/images/swiper-logo.svg",
+                    "alt":"swiper"
+                }
+            ],
+            "portada":"./images/portadaPoloIT.png"
+        }
+    ]
 ]

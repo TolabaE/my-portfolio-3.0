@@ -4,7 +4,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { successAlert } from '../utils/alerts.js';
 import { SpinnerCircularFixed } from 'spinners-react';
-import { Comment } from  'react-loader-spinner';
 import LoadingContact from './LoadingContact';
 
 const Contact = () => {

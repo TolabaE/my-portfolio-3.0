@@ -2,12 +2,14 @@
 import CardProject from "../components/CardProject.astro";
 import ProjectJSON from "../JSON/projects.json";
 
-
+const myProjects = ProjectJSON[0];
+const companyProjects = ProjectJSON[1];
 
 ---
-<div class="flex flex-col gap-6 items-center md:flex-row  flex-wrap md:justify-center py-4">
+<h2 class="text-center pb-8 text-2xl md:text-4xl font-semibold text-white p-2 md:p-8">Mis <span class="text-cyan-400">Proyectos</span></h2>
+<div class="flex flex-col gap-6 items-center md:flex-row  flex-wrap md:justify-evenly py-4">
     {
-        ProjectJSON.map(item =>(
+        myProjects.map(item =>(
             <CardProject
                 imagen={item.portada}
                 title={item.nombre}
@@ -19,4 +21,18 @@ import ProjectJSON from "../JSON/projects.json";
         ))
     }
 </div>
-<!-- <h2 class=" mt-4 text-center text-2xl md:text-3xl font-semibold text-white"><span class="text-cyan-400">Proyectos </span>Empresariales</h2> -->
+<h2 class="text-center pb-8 text-2xl md:text-4xl font-semibold text-white p-2 md:p-8">Proyectos <span class="text-cyan-400">Empresariales</span></h2>
+<div class="flex flex-col gap-6 items-center md:flex-row  flex-wrap md:justify-evenly py-4">
+    {
+        companyProjects.map(item =>(
+            <CardProject
+                imagen={item.portada}
+                title={item.nombre}
+                description={item.detalle}
+                github={item.repositorio}
+                deploy={item.demo}
+                tecnology={item.tecnologias} 
+            />
+        ))
+    }
+</div>
