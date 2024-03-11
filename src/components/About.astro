@@ -14,7 +14,7 @@
             <!-- <div class="flex flex-col gap-2 px-4 text-base md:text-lg font-semibold">
                 <p class="text-cyan-400">Edad: <span class="text-white">22 años</span></p>
             </div> -->
-            <button class="text-cyan-400 border-2 border-cyan-400 p-2 text-xs md:text-lg font-bold rounded-lg m-auto hover:shadow-md hover:text-zinc-900 md:hover:border-zinc-900 btn-cv"><a href="./assets/eduardo-tolaba-cv.pdf" download="EduardoTolaba-Developer">Descargar CV</a></button>
+            <button class="text-cyan-400 border-2 border-cyan-400 p-2 text-xs md:text-lg font-bold rounded-lg m-auto hover:shadow-md hover:text-zinc-900 btn-cv animation-circle"><a href="./assets/eduardo-tolaba-cv.pdf" download="EduardoTolaba-Developer">Descargar CV</a></button>
         </div>
     </div>
 </section>
@@ -34,4 +34,30 @@
         height: 320px;
     }
 }
+
+.animation-circle{
+    animation: anime 1.2s  linear  infinite;
+    border-color: transparent;
+    border-radius: 12px;
+}
+
+@keyframes anime{
+    25%
+    {
+        border-top-color: #00E8F8;
+    }
+    50%
+    {
+        border-right-color: #00E8F8;
+    }
+    75%
+    {
+        border-bottom-color: #00E8F8;
+    }
+    100%
+    {
+        border-left-color: #00E8F8;
+    }
+}
+
 </style>

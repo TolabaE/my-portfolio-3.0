@@ -67,7 +67,7 @@ const Contact = () => {
                     theme="colored"
                 />
                 {
-                    active 
+                    active
                     ? <form className="form flex flex-col gap-6 rounded-md w-full md:w-3/4 lg:w-1/2 2xl:w-1/3" onSubmit={handleSumbit}>
                         <div className="flex flex-col gap-4 md:flex-row w-full">
                             <input type="text" name="nombre" placeholder="Nombre completo" className="p-2 border-2 border-cyan-400 bg-transparent rounded-lg md:w-1/2 font-semibold text-cyan-400" />
@@ -84,9 +84,9 @@ const Contact = () => {
                 }
                 <div className='w-full md:w-3/4 lg:w-1/3 h-56 flex flex-col gap-1 md:gap-3 bg-gray-800 p-10 rounded-xl'>
                     <h2 className='text-cyan-400 text-center text-lg md:text-xl font-semibold'>Información adicional</h2>
-                    <p class="text-cyan-400 text-base md:text-lg">Correo: <span class="text-white">eduardoetolaba@gmail.com</span></p>
-                    <p class=" text-cyan-400 text-base md:text-lg">Cuidad: <span class="text-white">CABA, Buenos Aires - Argentina</span></p>
-                    <p class="text-cyan-400 text-base md:text-lg">Telefono: <span class="text-white">+54 11 69650202</span></p>
+                    <p className="text-cyan-400 text-base md:text-lg">Correo: <span className="text-white">eduardoetolaba@gmail.com</span></p>
+                    <p className=" text-cyan-400 text-base md:text-lg">Cuidad: <span className="text-white">CABA, Buenos Aires - Argentina</span></p>
+                    <p className="text-cyan-400 text-base md:text-lg">Telefono: <span className="text-white">+54 11 69650202</span></p>
                 </div>
             </section>
         </>
