@@ -10,7 +10,6 @@ const Contact = () => {
 
     const [loading, setloading] = useState(false);
     const [active, setActive] = useState(false);
-    const [anchopantalla, setAnchopantalla] = useState(window.innerWidth);//controla el ancho de pantalla.
 
     const handleSumbit = (e) =>{
         e.preventDefault();
@@ -39,6 +38,8 @@ const Contact = () => {
     }
 
     useEffect(() => {
+
+        //funcion que envia una peticiona al servidor, para que este activo, ya que se inactiva si no recibe ninguna solicitud.
         const connectServer = async() =>{
             const response = await fetch(`${import.meta.env.PUBLIC_URL_SERVER}/active`);
             const result = await response.json();
@@ -47,7 +48,6 @@ const Contact = () => {
             }
         }
         connectServer();
-        setAnchopantalla(window.innerWidth)
     }, []);
     
     return (
