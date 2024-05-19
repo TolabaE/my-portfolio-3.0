@@ -6,9 +6,9 @@ Este proyecto esta realizo para mostrar mi perfil y stack de tecnologias que man
 `Nota`: Ademas envia los datos del formulario a un servidor backend desarrollado en nodejs y express.js, que procesa la información y lo envia a mi email asociado.
 
 ## Link de deploy 🌐
-El proyecto esta deployado en vercel
+El proyecto esta subido a vercel
 
-Portafolio: [ eduardotolaba-portfolio.vercel.app/ ](eduardotolaba-portfolio.vercel.app/)
+Portafolio: [ eduardotolaba-portfolio.vercel.app/ ](https://eduardotolaba-portfolio.vercel.app/)
 
 ## Tecnologias utilizadas 🛠️
 
