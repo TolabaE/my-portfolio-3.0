@@ -66,7 +66,7 @@ const Carrusel = () => {
                 }}
                 autoplay={{
                     delay:2500,
-                    disableOnInteraction:false
+                    disableOnInteraction:true
                 }}
                 navigation={navigation}
                 modules={[Navigation,Pagination,Autoplay]}

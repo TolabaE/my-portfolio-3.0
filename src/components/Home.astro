@@ -4,10 +4,11 @@
 <section class="p-2 md:p-8 animate-pulse" id="home">
     <div class="flex flex-wrap justify-between m-2 md:my-10 mx-6 gap-y-8">
         <div class="detail flex flex-col gap-y-4 md:gap-y-6 md:py-12"><!---Sarah -->
-            <h1 class="text-3xl md:text-5xl font-semibold text-white">Soy <span style="color:#00E8F8;">Eduardo Tolaba</span></h1>
-            <div class="develop-title text-1xl md:text-3xl font-semibold relative uppercase">
-                <span class="text__develop">Desarrollador web full stack</span>
-                <span class="text__develop-hover">Desarrollador web full stack</span>
+            <h1 class="text-3xl md:text-5xl font-semibold text-white">Me llamo <span style="color:#00E8F8;">Eduardo Tolaba</span></h1>
+            <p class="text-cyan-400 text-xl md:text-4xl">Soy un <span class="text-white font-semibold" id="subtitle"></span></p>
+            <div class="develop-title text-sm md:text-2xl font-semibold relative uppercase">
+                <span class="text__develop">y Estudiante en Sistemas Informaticos</span>
+                <span class="text__develop-hover">y Estudiante en Sistemas Informaticos</span>
             </div>
             <div class="flex flex-wrap pt-4 pb-4 gap-5 social">
                 <a href="https://github.com/TolabaE" target="_blank" class="text-base w-8 h-8 md:w-12 md:h-12 md:text-2xl flex justify-center items-center rounded-full text-cyan-400 border-2 border-cyan-400"><i class="bi bi-github"></i></a>
@@ -17,6 +18,41 @@
         </div>
     </div>
 </section>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+    const etiqueta = document.getElementById('subtitle');
+    const texts = "Desarrollador Web Full Stack     ";
+    let long = texts.length;
+    let count = 0; 
+
+    function writeTextDom() {
+        if (etiqueta) {  // Verificación de null
+            if (count < texts.length) {
+                etiqueta.textContent += texts.charAt(count); // Corta la letra de acuerdo a la posición del contador.
+                count++;
+            } else {
+                deleteTextDom(); // Si el contador llega al límite de la longitud, se ejecuta esta función
+            }
+        }
+    }
+
+    function deleteTextDom() {
+        if (etiqueta) {  // Verificación de null
+            if (count === texts.length) {
+                etiqueta.textContent = texts.substring(0, long);
+                long--;
+                if (long === -2) {
+                    etiqueta.textContent = '';
+                    long = texts.length;
+                    count = 0;
+                }
+            }
+        }
+    }
+    setInterval(writeTextDom, 100);//se usa para determinar el tiempo de ejecucion de la funcion y su duracion
+});
+
+</script>
 <style>
     #home{
         background-image: url('/home-image-portal.jpg');
@@ -42,7 +78,6 @@
         width: 528px;
         background-size: cover;
     }
-
     .text__develop{
         color: transparent;
         -webkit-text-stroke:1px rgba(255,255,255, 0.6);
@@ -57,7 +92,7 @@
         border-right: 3px solid #00E8F8;
     }
     .develop-title:hover .text__develop-hover{
-        width: 101%;
+        width: 90%;
         filter: drop-shadow(0 0 30px #1af7ff);
     }
     @keyframes check {
