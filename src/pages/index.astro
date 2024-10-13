@@ -5,8 +5,11 @@ import About from '../components/About.astro';
 import Services from '../components/Services.astro';
 import Portfolio from '../components/Portfolio.astro';
 import WorkList from '../containers/WorkList.astro';
-import Contact from '../components/Contact';
+// import Contact from '../components/Contact';
 import Carrusel from '../components/Carrusel';
+import Contact from '../components/Contact.astro';
+
+
 ---
 <Layout>
 	<Home/>
@@ -15,5 +18,6 @@ import Carrusel from '../components/Carrusel';
 	<WorkList/>
 	<Services/>
 	<Portfolio/>
-	<Contact client:only="react"/>
+	<Contact/>
+	<!-- <Contact client:only="react"/> -->
 </Layout>
