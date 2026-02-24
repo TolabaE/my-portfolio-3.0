@@ -210,11 +210,6 @@
             "description":"imagen del logo de bootstrap"
         },
         {
-            "name":"SASS",
-            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMd7eiGMX9FwRLC0uJTDewSjw_7_WvCF4ABLdwztLrCnPEXrqW0gG-pH8eT-fYPLlghjY&usqp=CAU",
-            "description":"logo del compilador sass"
-        },
-        {
             "name":"Tailwind",
             "image":"https://cms-assets.tutsplus.com/uploads/users/30/posts/34128/preview_image/tailwindcss-pre.png",
             "description":"imagen del logo de tailwindcss"
@@ -238,11 +233,6 @@
             "name":"Astro.js",
             "image":"https://avatars.githubusercontent.com/u/44914786?s=280&v=4",
             "description":"logo del framework Astro js"
-        },
-        {
-            "name": "Angular.js",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png",
-            "description": "logo del framework angular"
         },
         {
             "name":"TypeScript",
